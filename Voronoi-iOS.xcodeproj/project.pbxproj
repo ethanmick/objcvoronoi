@@ -18,6 +18,20 @@
 		AA61318D16E43728009E2B87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61318C16E43728009E2B87 /* Default-568h@2x.png */; };
 		AA61319016E43728009E2B87 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA61318E16E43728009E2B87 /* MainStoryboard.storyboard */; };
 		AA61319316E43728009E2B87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61319216E43728009E2B87 /* ViewController.m */; };
+		AA6131B416E43828009E2B87 /* Beachsection.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61319B16E43828009E2B87 /* Beachsection.m */; };
+		AA6131B516E43828009E2B87 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61319D16E43828009E2B87 /* Cell.m */; };
+		AA6131B616E43828009E2B87 /* CircleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61319F16E43828009E2B87 /* CircleEvent.m */; };
+		AA6131B716E43828009E2B87 /* ClayPathMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131A116E43828009E2B87 /* ClayPathMaker.m */; };
+		AA6131B816E43828009E2B87 /* ClayRelaxer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131A316E43828009E2B87 /* ClayRelaxer.m */; };
+		AA6131B916E43828009E2B87 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131A516E43828009E2B87 /* Edge.m */; };
+		AA6131BA16E43828009E2B87 /* Halfedge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131A716E43828009E2B87 /* Halfedge.m */; };
+		AA6131BB16E43828009E2B87 /* RBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131A916E43828009E2B87 /* RBTree.m */; };
+		AA6131BC16E43828009E2B87 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131AB16E43828009E2B87 /* Site.m */; };
+		AA6131BD16E43828009E2B87 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131AD16E43828009E2B87 /* Vertex.m */; };
+		AA6131BE16E43828009E2B87 /* Voronoi.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131AF16E43828009E2B87 /* Voronoi.m */; };
+		AA6131BF16E43828009E2B87 /* VoronoiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131B116E43828009E2B87 /* VoronoiConstants.m */; };
+		AA6131C016E43828009E2B87 /* VoronoiResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131B316E43828009E2B87 /* VoronoiResult.m */; };
+		AA6131C316E438B8009E2B87 /* VoronoiView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6131C216E438B8009E2B87 /* VoronoiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +51,34 @@
 		AA61318F16E43728009E2B87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AA61319116E43728009E2B87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AA61319216E43728009E2B87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA61319A16E43828009E2B87 /* Beachsection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beachsection.h; sourceTree = "<group>"; };
+		AA61319B16E43828009E2B87 /* Beachsection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beachsection.m; sourceTree = "<group>"; };
+		AA61319C16E43828009E2B87 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		AA61319D16E43828009E2B87 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		AA61319E16E43828009E2B87 /* CircleEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleEvent.h; sourceTree = "<group>"; };
+		AA61319F16E43828009E2B87 /* CircleEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleEvent.m; sourceTree = "<group>"; };
+		AA6131A016E43828009E2B87 /* ClayPathMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayPathMaker.h; sourceTree = "<group>"; };
+		AA6131A116E43828009E2B87 /* ClayPathMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayPathMaker.m; sourceTree = "<group>"; };
+		AA6131A216E43828009E2B87 /* ClayRelaxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayRelaxer.h; sourceTree = "<group>"; };
+		AA6131A316E43828009E2B87 /* ClayRelaxer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayRelaxer.m; sourceTree = "<group>"; };
+		AA6131A416E43828009E2B87 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		AA6131A516E43828009E2B87 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		AA6131A616E43828009E2B87 /* Halfedge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Halfedge.h; sourceTree = "<group>"; };
+		AA6131A716E43828009E2B87 /* Halfedge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Halfedge.m; sourceTree = "<group>"; };
+		AA6131A816E43828009E2B87 /* RBTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTree.h; sourceTree = "<group>"; };
+		AA6131A916E43828009E2B87 /* RBTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTree.m; sourceTree = "<group>"; };
+		AA6131AA16E43828009E2B87 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		AA6131AB16E43828009E2B87 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		AA6131AC16E43828009E2B87 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		AA6131AD16E43828009E2B87 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		AA6131AE16E43828009E2B87 /* Voronoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voronoi.h; sourceTree = "<group>"; };
+		AA6131AF16E43828009E2B87 /* Voronoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voronoi.m; sourceTree = "<group>"; };
+		AA6131B016E43828009E2B87 /* VoronoiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiConstants.h; sourceTree = "<group>"; };
+		AA6131B116E43828009E2B87 /* VoronoiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiConstants.m; sourceTree = "<group>"; };
+		AA6131B216E43828009E2B87 /* VoronoiResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiResult.h; sourceTree = "<group>"; };
+		AA6131B316E43828009E2B87 /* VoronoiResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiResult.m; sourceTree = "<group>"; };
+		AA6131C116E438B8009E2B87 /* VoronoiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoronoiView.h; sourceTree = "<group>"; };
+		AA6131C216E438B8009E2B87 /* VoronoiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoronoiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +130,9 @@
 				AA61318E16E43728009E2B87 /* MainStoryboard.storyboard */,
 				AA61319116E43728009E2B87 /* ViewController.h */,
 				AA61319216E43728009E2B87 /* ViewController.m */,
+				AA6131C116E438B8009E2B87 /* VoronoiView.h */,
+				AA6131C216E438B8009E2B87 /* VoronoiView.m */,
+				AA61319916E4373E009E2B87 /* Voronoi */,
 				AA61317D16E43728009E2B87 /* Supporting Files */,
 			);
 			path = "Voronoi-iOS";
@@ -105,6 +150,39 @@
 				AA61318C16E43728009E2B87 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA61319916E4373E009E2B87 /* Voronoi */ = {
+			isa = PBXGroup;
+			children = (
+				AA61319A16E43828009E2B87 /* Beachsection.h */,
+				AA61319B16E43828009E2B87 /* Beachsection.m */,
+				AA61319C16E43828009E2B87 /* Cell.h */,
+				AA61319D16E43828009E2B87 /* Cell.m */,
+				AA61319E16E43828009E2B87 /* CircleEvent.h */,
+				AA61319F16E43828009E2B87 /* CircleEvent.m */,
+				AA6131A016E43828009E2B87 /* ClayPathMaker.h */,
+				AA6131A116E43828009E2B87 /* ClayPathMaker.m */,
+				AA6131A216E43828009E2B87 /* ClayRelaxer.h */,
+				AA6131A316E43828009E2B87 /* ClayRelaxer.m */,
+				AA6131A416E43828009E2B87 /* Edge.h */,
+				AA6131A516E43828009E2B87 /* Edge.m */,
+				AA6131A616E43828009E2B87 /* Halfedge.h */,
+				AA6131A716E43828009E2B87 /* Halfedge.m */,
+				AA6131A816E43828009E2B87 /* RBTree.h */,
+				AA6131A916E43828009E2B87 /* RBTree.m */,
+				AA6131AA16E43828009E2B87 /* Site.h */,
+				AA6131AB16E43828009E2B87 /* Site.m */,
+				AA6131AC16E43828009E2B87 /* Vertex.h */,
+				AA6131AD16E43828009E2B87 /* Vertex.m */,
+				AA6131AE16E43828009E2B87 /* Voronoi.h */,
+				AA6131AF16E43828009E2B87 /* Voronoi.m */,
+				AA6131B016E43828009E2B87 /* VoronoiConstants.h */,
+				AA6131B116E43828009E2B87 /* VoronoiConstants.m */,
+				AA6131B216E43828009E2B87 /* VoronoiResult.h */,
+				AA6131B316E43828009E2B87 /* VoronoiResult.m */,
+			);
+			name = Voronoi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +254,20 @@
 				AA61318316E43728009E2B87 /* main.m in Sources */,
 				AA61318716E43728009E2B87 /* AppDelegate.m in Sources */,
 				AA61319316E43728009E2B87 /* ViewController.m in Sources */,
+				AA6131B416E43828009E2B87 /* Beachsection.m in Sources */,
+				AA6131B516E43828009E2B87 /* Cell.m in Sources */,
+				AA6131B616E43828009E2B87 /* CircleEvent.m in Sources */,
+				AA6131B716E43828009E2B87 /* ClayPathMaker.m in Sources */,
+				AA6131B816E43828009E2B87 /* ClayRelaxer.m in Sources */,
+				AA6131B916E43828009E2B87 /* Edge.m in Sources */,
+				AA6131BA16E43828009E2B87 /* Halfedge.m in Sources */,
+				AA6131BB16E43828009E2B87 /* RBTree.m in Sources */,
+				AA6131BC16E43828009E2B87 /* Site.m in Sources */,
+				AA6131BD16E43828009E2B87 /* Vertex.m in Sources */,
+				AA6131BE16E43828009E2B87 /* Voronoi.m in Sources */,
+				AA6131BF16E43828009E2B87 /* VoronoiConstants.m in Sources */,
+				AA6131C016E43828009E2B87 /* VoronoiResult.m in Sources */,
+				AA6131C316E438B8009E2B87 /* VoronoiView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

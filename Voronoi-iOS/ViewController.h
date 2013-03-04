@@ -8,6 +8,33 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Voronoi;
+@class VoronoiResult;
+@class VoronoiView;
+
+@interface ViewController : UIViewController {
+
+    Voronoi *voronoi;
+    VoronoiResult *activeResult;
+    IBOutlet VoronoiView *voronoiview;
+    IBOutlet UITextField *numSitesEntry;
+    IBOutlet UITextField *marginEntry;
+    IBOutlet UIButton *drawButton;
+    IBOutlet UIButton *relaxButton;
+
+    NSMutableArray *randomPoints;
+    float xMax;
+    float yMax;
+}
+
+@property (assign, readwrite) float xMax;
+@property (assign, readwrite) float yMax;
+
+- (IBAction)relaxWithLloyd:(id)sender;
+
+- (void)calculateVoronoi;
+
+- (IBAction)newVoronoi:(id)sender;
+- (void)newVoronoiWithNewSites:(NSMutableArray *)newSites;
 
 @end
