@@ -1,0 +1,10 @@
+# OS generated files #
+######################
+.DS_Store
+._*
+*.sw*
+
+# Xcode Files #
+###############
+build/
+xcuserdata/
